@@ -9,7 +9,7 @@ function App() {
     return (
         <BrowserRouter>
             <Navbar/>
-            <div className="container pt-4yarn">
+            <div className="container pt-4">
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" component={About} />
